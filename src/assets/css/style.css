@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Londrina+Outline&family=Permanent+Marker&family=Poppins&display=swap");
+body {
+  background: #272727;
+  text-transform: uppercase;
+}
+.text-primary-1 {
+  color: #79c824 !important;
+}
+.bg-primary-1 {
+  background-color: #79c824 !important;
+}
+*:focus {
+  border-color: inherit !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.pointer {
+  cursor: pointer;
+}
+/* Header */
+
+.custom-navbar {
+  background: url("../img/Banner.png") no-repeat center / cover !important;
+  height: 100vh;
+}
+.navbar-toggler {
+  border-color: transparent !important;
+}
+.toggler-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #79c824 !important;
+}
+.nav-link {
+  color: white !important;
+  cursor: pointer;
+}
+.logo {
+  height: 70px;
+}
+.connect-btn {
+  height: 40px;
+}
+.mint-btn {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+}
+.custom-nav {
+  text-align: end;
+  top: 40%;
+  right: 0;
+  position: absolute;
+}
+.social-links img {
+  height: 38px;
+}
+
+/* About Us */
+.vertical-img {
+  width: 100%;
+}
+.custom-card {
+  border-radius: 50px 50px 0px 0px !important;
+  border: 1px solid #79c824;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  background: #2d2c2c !important;
+  /* background: url("../img/CardBG.png") no-repeat center / cover !important;
+  width: 100%; */
+}
+.card-title {
+  font-size: 100px !important;
+  font-family: "Londrina Outline";
+  color: white;
+  font-style: italic;
+}
+.card-subtitle {
+  font-size: 16px !important;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+/* The Game */
+.game-container {
+  margin-top: -50px;
+}
+.game-card {
+  padding-top: 200px;
+}
+
+/* Road Map */
+
+.roadmap-section {
+  margin-top: 30px;
+}
+.roadmap-container {
+  background: url("../img/RoadMapBG.png") no-repeat center / cover !important;
+  /* width: 100%; */
+}
+.roadmap-vertical {
+  margin-top: 250px;
+  width: 100%;
+}
+.treasure-img {
+  margin-top: 140px;
+  width: 100%;
+}
+.rolex-img {
+  margin-top: 130px;
+  width: 100%;
+}
+.lambo-img {
+  margin-top: 130px;
+  width: 100%;
+}
+.points-container1 {
+  margin-top: 165px;
+}
+.points-container2 {
+  margin-top: 137px;
+}
+.points-container3 {
+  margin-top: 75px;
+}
+.points-container4 {
+  margin-top: 80px;
+}
+.points-container5 {
+  margin-top: 75px;
+}
+.point-heading {
+  font-size: 20px;
+  color: #79c824;
+  font-style: italic;
+  font-weight: bold;
+}
+.point-subheading {
+  font-size: 15px;
+  color: #79c824;
+  font-style: italic;
+  font-weight: bold;
+}
+.custom-hr {
+  border: 2px solid white !important;
+  /* width: 50%; */
+  margin-right: 50%;
+  border-radius: 24px !important;
+}
+
+/* Utility Card */
+
+.utility-card {
+  background: #2d2c2c !important;
+  border-radius: 36px !important;
+}
+.utility-title {
+  font-size: 40px;
+  font-family: "Londrina Outline";
+  color: white;
+  font-style: italic;
+}
+
+/* FAQ */
+
+.faq-card {
+  background: #2d2c2c !important;
+  border-radius: 50px 80px 24px 50px !important;
+  color: #79c824;
+  border: 0.8px solid #79c824;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-width: 3px;
+  border-style: solid;
+}
+.faq-card-heading {
+  font-weight: bold;
+  font-style: italic;
+}
+.faq-card-point {
+  border-radius: 50%;
+  padding: 30px;
+  background-color: #272727;
+}
+.faq-points {
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+.faq-active {
+  border: 1px solid white;
+}
+
+@media (max-width: 1199px) {
+  .point-heading {
+    font-size: 18px;
+  }
+  .point-subheading {
+    font-size: 13px;
+  }
+  .points-container1 {
+    margin-top: 135px;
+  }
+  .points-container2 {
+    margin-top: 95px;
+  }
+  .points-container3 {
+    margin-top: 40px;
+  }
+  .points-container4 {
+    margin-top: 45px;
+  }
+  .points-container5 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .point-heading {
+    font-size: 16px;
+  }
+  .point-subheading {
+    font-size: 11px;
+  }
+  .points-container1 {
+    margin-top: 140px;
+  }
+  .points-container2 {
+    margin-top: 115px;
+  }
+  .points-container3 {
+    margin-top: 25px;
+  }
+  .points-container4 {
+    margin-top: 25px;
+  }
+  .points-container5 {
+    margin-top: 25px;
+  }
+  .treasure-img {
+    margin-top: 120px;
+  }
+  .rolex-img {
+    margin-top: 230px;
+  }
+  .lambo-img {
+    margin-top: 200px;
+  }
+  .points-img {
+    height: 1200px;
+  }
+  .custom-hr {
+    border: 1px solid white !important;
+    /* width: 50%; */
+    margin-right: 60%;
+  }
+  .main__div {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .img__div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: url("../img/all.png");
+    background-size: cover;
+    overflow: hidden;
+    animation: aboutAnimation linear 100000s infinite reverse;
+    height: 90vh;
+    width: 20vw;
+  }
+}
+@media (max-width: 767px) {
+  .navbar {
+    background: #434343 !important;
+  }
+  .logo {
+    height: 48px;
+  }
+  .main__div {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .img__div {
+    height: 90vh;
+    width: 50px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .main__div {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .img__div {
+    height: 90vh;
+    width: 250px !important;
+  }
+}
+
+.main__div {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.img__div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: url("../img/all.png");
+  background-size: cover;
+  overflow: hidden;
+  animation: aboutAnimation linear 100000s infinite reverse;
+  height: 90vh;
+  width: 20vw;
+}
+
+@keyframes aboutAnimation {
+  0% {
+    /*transform: translateY(0%);*/
+    background-position: 0 0;
+  }
+  100% {
+    /*transform: translateY(-66.6666%);*/
+    background-position: 0 10000000px;
+  }
+}
